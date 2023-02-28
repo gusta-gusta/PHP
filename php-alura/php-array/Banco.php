@@ -64,7 +64,9 @@ function LetrasMaiuscula(&$conta){
 ExibirMensagem(LetrasMaiuscula($contasCorrentes['413.958.908-62']));
 
 #AQUI A REFERENCIA JÁ ESTÁ APLICADA *FORA* DA FUNÇÃO!
+
 foreach ($contasCorrentes as $cpf => $conta) {
-    ExibirMensagem($cpf .  " " . $conta['titular'] . ' ' . $conta['saldo']);
+    list('titular' => $titular, 'saldo' => $saldo) = $conta;
+    ExibirMensagem("$cpf $titular $saldo");
 
 }

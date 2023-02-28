@@ -17,11 +17,11 @@ class caneta{
         echo "<h3><p>Estou rabiscando...</p></h3>";      
     }
     }
-    public function tampar() {   //metodo publico da permissão para a variavel protegida
+     function tampar() {   //metodo publico da permissão para a variavel protegida
         $this->tampada = true;
     }
 
-    public function destampar() { 
+     function destampar() { 
         $this->tampada = false; 
     }
 
