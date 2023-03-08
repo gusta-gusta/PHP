@@ -7,8 +7,13 @@ $array = [
     3 => 'tres'
 ];
 
-echo $array[1];
 var_dump($array);
 
+foreach ($array as $numeral => $nomeNumero){
+    echo "$numeral em pt é $nomeNumero" . PHP_EOL;
+    
+}
+// Conta todas as variaveis de um array.
+echo "Total: " . count($array) . PHP_EOL;
 
 ?>
