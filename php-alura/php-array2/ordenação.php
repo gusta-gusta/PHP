@@ -31,7 +31,7 @@
 
     function ordenaNotasFODA(array $notaUm, array $notaDois): int
     {
-        return $notaDois['nota'] <=> $notaUm['nota'];
+        return $notaUm['nota'] <=> $notaDois['nota'];
         // Se o notaUm for MENOR que o notaDois ele retorna -1
         // Se o notaUm for MAIOR que o notaDois ele retorna 1
         // Se forem IGUAIS ele retorna 0
