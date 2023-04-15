@@ -10,11 +10,11 @@
 
     $notasBimestre2 = [
 
-        'Gustavo'   =>    8,
+
         'Joao'      =>    2,
         'Lorenna'   =>    10,
         'Carvalho'  =>    3,
-        'Ozires'    =>    7
+
     ];
 
     //Só leva em consideração o valor
@@ -31,3 +31,5 @@
 
 
      // Tem diversas variações obs na documentação : https://www.php.net/manual/pt_BR/function.array-diff.php
+
+     
