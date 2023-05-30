@@ -1,0 +1,5 @@
+----------------------------- PHP BIZUS ----------------------------
+
+Manusear string
+
+usar a extensão mb_string e suas variantes, são mais detalhadas que a do php default 
