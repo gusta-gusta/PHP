@@ -16,7 +16,8 @@ foreach ($telefones as $telefones) {
         echo 'Telefone Não é Valido!' . PHP_EOL;
     }
 
-    echo preg_replace('12', '21', $telefones);
+    //                       () ---> Grupos de captura
+    echo preg_replace('/^\(([0-9]{2})\) (9?[0-9]{4} - [0-9]{4})$/', '(XX) \2', $telefones). PHP_EOL;
 }
 
 
